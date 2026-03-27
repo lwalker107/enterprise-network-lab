@@ -1,5 +1,3 @@
-:::writing{variant="standard" id="83921"}
-
 # Enterprise Multi-Site Network lab
 
 ## Overview
@@ -47,4 +45,3 @@
  - Devices configurations (configs/)
  - Network topology
  - Validation Screenshots
-  :::
