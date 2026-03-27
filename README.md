@@ -1,12 +1,12 @@
 :::writing{variant="standard" id="83921"}
 
-Enterprise Multi-Site Network lab
+### Enterprise Multi-Site Network lab
 
-Overview
+## Overview
 
-Designed and implemented a multi-site enterprise network simulating real-world infrastructure with VLAN segmentation, dynamic routing and centralized services.
+#### Designed and implemented a multi-site enterprise network simulating real-world infrastructure with VLAN segmentation, dynamic routing and centralized services.
 
-Key Features
+# Key Features
 - VLAN Segmentation (10, 20, 30, 40)
 - Inter-VLAN routing (Router-on-a-Stick)
 - OSPF dynamic routing (HQ - Branch)
