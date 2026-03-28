@@ -6,10 +6,10 @@
 
 ## Key Features
 - VLAN Segmentation (10, 20, 30, 40)
-- Inter-VLAN routing (Router-on-a-Stick)
-- OSPF dynamic routing (HQ - Branch)
-- DHCP with relay (ip helper-address)
-- ACL Security (restricted VLAN communication)
+- Inter-VLAN routing using Router-on-a-Stick
+- OSPF dynamic routing between HQ and Branch site
+- DHCP pools with relay (ip helper-address)
+- ACL Security to restricted VLAN communication
 - DNS + HTTP server integration
 
 ## Network Architecture
@@ -73,7 +73,7 @@
 
 ## Outcome
 
- Built and validated a full enterprise network demonstrating routing, switching, security and application-layer services.
+Successfully built and validated a full enterprise network demonstrating routing, switching, security and application-layer services.
 
 ## Files Included
  - Devices configurations (configs/)
