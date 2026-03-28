@@ -41,36 +41,35 @@
 ![Topology](topology1.png)
 
 ### OSPF Routing
-![OSPF](screenshots/R1-ospf-neighbor.png)
 ![OSPF](screenshots/R1-ospf-neighbor.PNG)
-![OSPF](screenshots/R1-ospf-routing.png)
+![OSPF](screenshots/R1-ospf-routing.PNG)
 
 ### Access-Lists
-![ACL](screenshots/R1-access-list.png)
+![ACL](screenshots/R1-access-list.PNG)
 
 ### DHCP
-![DHCP](screenshots/R1-dhcp-binding.png)
+![DHCP](screenshots/R1-dhcp-binding.PNG)
 
 ### DNS
-![DNS](screenshots/PC5-dns-test-success.png)
+![DNS](screenshots/PC5-dns-test-success.PNG)
 
 ### Successful Ping Test
-![PING](screenshots/PC1-test-success.png)
+![PING](screenshots/PC1-test-success.PNG)
 
 ### Blocked Ping Test
-![PING](screenshots/PC1-test-blocked.png)
+![PING](screenshots/PC1-test-blocked.PNG)
 
 ### Cross-Site-Test-Success
-![CROSSSITE](screenshots/PC9(VLAN40)-cross-site-test-success.png)
+![CROSSSITE](screenshots/PC9(VLAN40)-cross-site-test-success.PNG)
 
 ### VLAN Structure
-![VLAN](screenshots/SW2-vlans-structure.png)
+![VLAN](screenshots/SW2-vlans-structure.PNG)
 
 ### Trunking
-![TRUNK](screenshots/SW2-trunking.png)
+![TRUNK](screenshots/SW2-trunking.PNG)
 
 ### Web Server
-![WEB](screenshots/PC5-web-server.png)
+![WEB](screenshots/PC5-web-server.PNG)
 
 ## Outcome
 
