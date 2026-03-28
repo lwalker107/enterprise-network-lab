@@ -41,8 +41,8 @@
 ![Topology](topology1.png)
 
 ### OSPF Routing
-![OSPF](screenshots/R1-ospf-neighbor.png)
-![OSPF](screenshots/R1-ospf-routing.png)
+![OSPF](/screenshots/R1-ospf-neighbor.png)
+![OSPF](R1-ospf-routing.png)
 
 ### Access-Lists
 ![ACL](screenshots/R1-access-list.png)
