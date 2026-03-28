@@ -42,6 +42,7 @@
 
 ### OSPF Routing
 ![OSPF](screenshots/R1-ospf-neighbor.png)
+![OSPF](screenshots/R1-ospf-neighbor.PNG)
 ![OSPF](screenshots/R1-ospf-routing.png)
 
 ### Access-Lists
