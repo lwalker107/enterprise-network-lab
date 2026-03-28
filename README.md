@@ -54,10 +54,10 @@
 ![DNS](screenshots/PC5-dns-test-success.PNG)
 
 ### Successful Ping Test
-![PING](screenshots/PC1-test-success.PNG)
+![PING](screenshots/PC1-ping-test-success.PNG)
 
 ### Blocked Ping Test
-![PING](screenshots/PC1-test-blocked.PNG)
+![PING](screenshots/PC1-ping-test-blocked.PNG)
 
 ### Cross-Site-Test-Success
 ![CROSSSITE](screenshots/PC9(VLAN40)-cross-site-test-success.PNG)
