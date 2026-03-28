@@ -37,6 +37,14 @@
 
 ## Screenshots 
 
+### Network Topology
+![Topology](topology1.png)
+
+### OSPF Routing
+![OSPF]
+
+### Access-Lists
+![ACL]
 ## Outcome
 
  Built and validated a full enterprise network demonstrating routing, switching, security and application-layer services.
