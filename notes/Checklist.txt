@@ -1,0 +1,13 @@
+Step 1: Created VLANs 10, 20 and 30 on SW1/SW2 and VLAN 40 on SW3
+
+Step 2: Configured Router-on-a-Stick on R1
+
+Step 3: Set up OSPF between HQ and Branch
+
+Step 4: Applied ACLs to restrict VLAN 10 being able to access VLAN 20
+
+Step 5: Configured DHCP pools for all VLANs
+
+Step 6: Set up DNS + HTTP server in VLAN 30
+
+Step 7: Verified connectivity and service access
