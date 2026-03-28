@@ -41,10 +41,36 @@
 ![Topology](topology1.png)
 
 ### OSPF Routing
-![OSPF]
+![OSPF](screenshots/R1-ospf-neighbor.png)
+![OSPF](screenshots/R1-ospf-routing.png)
 
 ### Access-Lists
-![ACL]
+![ACL](screenshots/R1-access-list.png)
+
+### DHCP
+![DHCP](screenshots/R1-dhcp-binding.png)
+
+### DNS
+![DNS](screenshots/PC5-dns-test-success.png)
+
+### Successful Ping Test
+![PING](screenshots/PC1-test-success.png)
+
+### Blocked Ping Test
+![PING](screenshots/PC1-test-blocked.png)
+
+### Cross-Site-Test-Success
+![CROSSSITE](screenshots/PC9(VLAN40)-cross-site-test-success.png)
+
+### VLAN Structure
+![VLAN](screenshots/SW2-vlans-structure.png)
+
+### Trunking
+![TRUNK](screenshots/SW2-trunking.png)
+
+### Web Server
+![WEB](screenshots/PC5-web-server.png)
+
 ## Outcome
 
  Built and validated a full enterprise network demonstrating routing, switching, security and application-layer services.
