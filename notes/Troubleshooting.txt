@@ -1,0 +1,48 @@
+Troubleshooting
+
+
+I came across some issues while completing this lab and decided to keep track of my methods for troubleshooting so that I can better myself for the future when it happens again.
+
+
+
+Issue 1: During the early phases of VLAN Interface IP Configuration, I attempted to assign the 192.168.10.0/24 network to VLAN 10 interface resulting in a "bad mask" error.
+
+What caused Issue 1: Using the incorrect ip address (a network ip instead of a valid host ip)
+
+Process + Resolution: I just changed the IP address once I realized that I was trying to assign a whole network to just one interface.
+
+
+
+
+
+
+Issue 2: I had an ACL intended to block VLAN 10 traffic to VLAN 20 that wasn't working
+
+What caused Issue 2: I applied the ACL on the physical interface of the Router instead of the appropriate subinterface
+
+Process + Resolution: Again, this was moreso just me going back over old Boson Netsim Labs to refresh my memory and then reapplying the ACL over the g0/0.10 interface. 
+First, I used the cmd "sh access-list" to see what access-lists I had on the router already and seen that the access-list was there so I knew it wasn't an issue of me not 
+creating the ACL. Next, I made sure to check the format of the list itself and that I used the correct order for the structure ({deny | permit} protocol source-ip source-wildcard
+destination-ip destination-wildcard) and that was also correct. The final check came when I had to check which interface the ACL was applied on and that was when I realized I applied
+the ACL to interface g0/0 instead of g0/0.10, which helps the router distinguish which vlan the traffic is coming from.
+
+
+
+
+
+
+Issue 3: Devices in VLAN 40 failed to receive IP addresses
+
+What caused Issue 3: I didn't set up the DHCP relay correctly and I was missing vlan 40 in the DHCP pool configuration
+
+Process + Resolution: I issued the cmd "sh ip dhcp pool" and realized that I did not incorporate vlan 40 so I created the DHCP pool for VLAN 40. I then realized that since the DHCP server
+is on R1, not R2, I needed a ip-helper address directed towards R1 so I quickly set that up using the cmd "ip helper-address 10.0.0.1" on the g0/0 interface.
+
+
+
+Issue 4: I was unable to ping the DNS server from R1.
+
+What caused Issue 4: I didn't realize I had not physically connected the server to R1 nor had I placed the server in VLAN 30 logically, only within the diagram.
+
+Process + Resolution: This was just simply looking at the diagram and adding in a copper straight-through capable and then assigning the port to VLAN 30 and testing to make sure connectivity
+worked.
