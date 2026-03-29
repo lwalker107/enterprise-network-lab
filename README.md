@@ -79,3 +79,5 @@ Successfully built and validated a full enterprise network demonstrating routing
  - Devices configurations (configs/)
  - Network topology
  - Validation Screenshots
+ - Troubleshooting Notes
+ - Traffic Flow
