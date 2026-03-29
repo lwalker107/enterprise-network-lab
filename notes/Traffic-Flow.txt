@@ -1,0 +1,10 @@
+Scenario: PC in VLAN 20 accesses web server (app.local)
+
+Flow:
+
+1. PC sends DNS request 
+2. Router forwards request to DNS server (192.168.30.10)
+3. DNS responds with server IP
+4. PC sends HTTP request to Server
+5. Traffic routed via R1 to R0
+6. Server responds with webpage
